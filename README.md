@@ -14,5 +14,15 @@ Rhône 1982 (that is one delicious French wine!), etc... <br/>
 • The game ends when all the processes are dead. The winner is the last player
 reported to be “alive”. <br/>
 
-Assembler: this is the program that compiles champions and translate
+<strong>In this project:</strong> <br/>
+The Assembler: this is the program that compiles champions and translate
 them from the assembly language into Bytecode. <br/>
+
+The virtual machine (VM): It’s the “arena” in which your champions will be executed. <br/>
+
+The champion: for this project only needs to scare the bejesus out of a neurasthenic hedgehog. <br/>
+
+Maximum is 4 players. <br/>
+
+Also with the help of ncurses library was made the visualization mode where all the processes that are in the VM are shown like on the "battle field". All players have their own colors so it can be seen what they are doing and on the information pannel you can see the main information about the processes, cycles, amount of lives each champion/player "said" to have in the current period. There is an opportunity to slow or fasten the cycles running. To run the visualization use --visual.
+
